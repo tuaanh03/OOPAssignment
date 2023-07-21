@@ -1,0 +1,13 @@
+CompaCompany XYZ manages the purchasing of 3 types of customers:
+
+Type A: Ordinary customers (including x customers):
+AmounAmount paid by customer = Quantity of goods * unit price + VAT (10%)
+Type B: Loyal customers (including y customers):
+Promotion percentage = MAX (Number of years of loyalty * 5%, 50%)
+AmounAmount paid by customer = (Number of goods * unit price) * (100% – Promotion percentage) + VAT (10%)
+Type C: Special customers (including z customers):
+AmounAmount paid by customer = (Number of goods * unit price) *50% + VAT (10%)
+
+ImporImport customer list from XYZ.INP text file. 0< x,y,z<1000.
+Use UUse the function pointer to calculate the Total Amount of each customer in the payable list. Export the results to the file XYZ.OUT in the prescribed format.
+DesigDesign and build classes to solve the problem of calculating the total amount of money earned by the company. Export the results to the file XYZ.OUT in the prescribed format.
